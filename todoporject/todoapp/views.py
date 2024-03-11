@@ -26,7 +26,7 @@ def unmark(reques,pk):
 def taskedit(request,pk):
     get_task = get_object_or_404(Task, pk=pk)
     if request.method == "POST":
-        new_task =request.POST['tasked']
+        new_task =request.POST['tasked']  #this 'tasked' is name from edit.html input form
         get_task.task =new_task
         get_task.save()
         return redirect('home')
