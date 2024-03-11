@@ -1,1 +1,1 @@
-*** That is django ToDo app for practic CRUD.
+### That is django ToDo app for practic CRUD.
